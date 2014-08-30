@@ -1,0 +1,37 @@
+<!--
+  Copyright 2013 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+
+<resources>
+    <string name="app_name">Ligi</string>
+    <string-array name="planets_array">
+        <item>منو اصلی</item>
+        <item>برنامه بازی ها</item>
+        <item>ترکیب</item>
+        <item>آمار تیم</item>
+        <item>جدول لیگ</item>
+        <item>آمار لیگ</item>
+        <item>جستجو و خرید بازیکن</item>
+        <item>جستجوی افراد</item>
+        <item>درباره ما</item>
+    </string-array>
+    <string name="title_jadval">جدول لیگ</string>
+    <string name="title_sabteNam">ثبت نام</string>
+    <string name="title_nameTeam">نام تیم</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_websearch">Web search</string>
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
+</resources>

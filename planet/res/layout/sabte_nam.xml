@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+ 
+    <!-- 2 columns -->
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" 
+        
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/txtTeamName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:ems="5" >
+
+            <requestFocus />
+        </EditText>
+        
+        <TextView
+            android:id="@+id/textView1"
+            android:fontFamily="سلام"
+            android:gravity="right"
+            android:text="نام تیم"
+            android:textAppearance="?android:attr/textAppearanceMedium" 
+             android:layout_column="3" />
+
+    </TableRow>
+ 
+    <!-- edittext span 2 column -->
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" 
+        android:gravity="center">
+ 
+        <EditText
+            android:id="@+id/txtUserName"
+            android:layout_span="2" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:fontFamily="سلام"
+            android:gravity="right"
+            android:text="نام کاربری"
+            android:textAppearance="?android:attr/textAppearanceMedium" 
+            android:layout_column="3" />
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" 
+        android:gravity="center">
+ 
+        <EditText
+            android:id="@+id/txtPhone"
+            android:layout_span="2" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:fontFamily="سلام"
+            android:gravity="right"
+            android:text="شماره موبایل"
+            android:textAppearance="?android:attr/textAppearanceMedium" 
+             android:layout_column="3" />
+    </TableRow>
+    <!-- just draw a red line -->
+
+    <View
+        android:layout_height="1dip"
+        android:background="#000000" />
+
+    <!-- 3 columns -->
+
+    <!-- display this button in 3rd column via layout_column(zero based) -->
+
+    <!-- display this button in 2nd column via layout_column(zero based) -->
+
+    <TableRow
+        android:id="@+id/tableRow5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" 
+        android:gravity="right">
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_column="1"
+            android:fontFamily="سلام"
+            android:text="تایید" />
+
+    </TableRow>
+</TableLayout>
